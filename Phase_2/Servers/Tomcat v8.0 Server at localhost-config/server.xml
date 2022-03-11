@@ -124,7 +124,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="ServletGetPost" path="/ServletGetPost" reloadable="true" source="org.eclipse.jst.jee.server:ServletGetPost"/><Context docBase="FirstServlet" path="/FirstServlet" reloadable="true" source="org.eclipse.jst.jee.server:FirstServlet"/><Context docBase="ServletConcept" path="/ServletConcept" reloadable="true" source="org.eclipse.jst.jee.server:ServletConcept"/><Context docBase="WebContent" path="/WebContent" reloadable="true" source="org.eclipse.jst.jee.server:WebContent"/></Host>
+      <Context docBase="ServletGetPost" path="/ServletGetPost" reloadable="true" source="org.eclipse.jst.jee.server:ServletGetPost"/><Context docBase="FirstServlet" path="/FirstServlet" reloadable="true" source="org.eclipse.jst.jee.server:FirstServlet"/><Context docBase="ServletConcept" path="/ServletConcept" reloadable="true" source="org.eclipse.jst.jee.server:ServletConcept"/><Context docBase="WebContent" path="/WebContent" reloadable="true" source="org.eclipse.jst.jee.server:WebContent"/><Context docBase="CookieTrackingDemo" path="/CookieTrackingDemo" reloadable="true" source="org.eclipse.jst.jee.server:CookieTrackingDemo"/></Host>
     </Engine>
   </Service>
 </Server>
