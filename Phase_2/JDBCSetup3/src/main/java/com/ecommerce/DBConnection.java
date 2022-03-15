@@ -1,5 +1,6 @@
 package com.ecommerce;
 
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -11,7 +12,7 @@ public class DBConnection {
         public DBConnection(String dbURL, String user, String pwd) throws ClassNotFoundException, SQLException{
                 
                 Class.forName("com.mysql.jdbc.Driver");
-                this.connection = DriverManager.getConnection("dbURL, userid, password");
+                this.connection = DriverManager.getConnection(dbURL, user, pwd);
         }
         
         public Connection getConnection(){

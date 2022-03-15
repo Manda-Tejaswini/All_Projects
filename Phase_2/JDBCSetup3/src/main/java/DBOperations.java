@@ -46,7 +46,7 @@ public class DBOperations extends HttpServlet {
                         props.load(in);
                         
                         
-                        DBConnection conn = new DBConnection(props.getProperty("dbURL"), props.getProperty("userid"), props.getProperty("password"));
+                        DBConnection conn = new DBConnection(props.getProperty("dbURL"), props.getProperty("user"), props.getProperty("pwd"));
                         Statement stmt = conn.getConnection().createStatement();
                         stmt.executeUpdate("create database mydatabase");
                         out.println("Created database: mydatabase<br>");
