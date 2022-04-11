@@ -3,7 +3,7 @@
 ## About:
 
 This **Online Test Application** system secure, professional web-based questionnaire Easy to use, for business, training, and educational assessment with instant score
-tests and quizzes saving you hours of paperwork.This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
+tests and quizzes saving you hours of paperwork.This project was generated with [Angular CLI] version 11.2.5.
 
 ## Key Features:
 
